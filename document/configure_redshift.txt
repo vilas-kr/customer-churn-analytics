@@ -1,0 +1,40 @@
+Steps to Create Redshift Serverless
+
+1. Open AWS Console
+   Go to AWS Management Console and search for Amazon Redshift. Click on the Redshift service.
+
+2. Choose Redshift Serverless
+   In the left navigation panel, select “Redshift Serverless” and click on “Create workgroup”.
+
+3. Configure Workgroup
+   Enter the following details:
+
+    * Workgroup name (e.g., churn-workgroup)
+    * Base capacity (default is fine)
+    * Select VPC, subnets, and security group
+
+    Click Next.
+
+4. Configure Namespace
+   Provide namespace details:
+
+    * Namespace name (e.g., churn-namespace)
+    * Admin username and password
+    * Optional: enable encryption and attach IAM role
+
+    Click Next.
+
+5. Review and Create
+   Review all configurations and click Create. The setup will take a few minutes.
+
+6. Connect to Redshift
+   Use Query Editor v2 from AWS Console or external tools like DBeaver or pgAdmin.
+   Provide endpoint, port (5439), username, and password.
+
+7. Attach IAM Role
+   Go to Namespace → Permissions and attach an IAM role with S3 access (e.g., AmazonS3ReadOnlyAccess).
+
+Important Notes
+* Redshift Serverless automatically scales resources.
+* You only pay for usage.
+* Ensure security group allows inbound access for connections.
