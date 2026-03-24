@@ -1,0 +1,24 @@
+(.venv) PS D:\Bridgelabs\AWS\customer-churn-analytics> python -m scripts.create_table
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:root:Query ID: 88024e18-3362-4ca3-b591-1b062abcfa64
+INFO:root:Query running... Status: PICKED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query executed successfully
+INFO:root:Table 'staging_customer_churn' created successfully.
+INFO:root:Query ID: 2c6ac087-aa70-41cc-ad47-1c7ab9a59ef4
+INFO:root:Query running... Status: PICKED
+INFO:root:Query executed successfully
+INFO:root:Table 'customer_churn' created successfully.
+INFO:root:Query ID: 3f965902-86d3-4009-8bc0-3776394609c0
+INFO:root:Query running... Status: PICKED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query executed successfully
+INFO:root:Table 'zip_population' created successfully.
