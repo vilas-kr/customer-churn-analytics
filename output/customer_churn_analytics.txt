@@ -1,0 +1,18 @@
+(.venv) PS D:\Bridgelabs\AWS\customer-churn-analytics> python -m scripts.customer_churn_analytics
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:root:Query ID: 89e00c30-df84-4ec7-af8d-191fb55fd5bb
+INFO:root:Query running... Status: PICKED
+INFO:root:Query executed successfully
+INFO:root:Table 'customer_churn_analytics' created successfully.
+INFO:root:Query ID: fc4b5295-05c7-428a-a93e-08953ab3e229
+INFO:root:Query running... Status: PICKED
+INFO:root:Query executed successfully
+INFO:root:Table 'customer_churn_analytics' truncated successfully.
+INFO:root:Query ID: 23ddef00-d4e4-4ecd-ad0b-5f592ba8dc73
+INFO:root:Query running... Status: PICKED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query executed successfully
+INFO:root:Data inserted successfully into 'customer_churn_analytics' table.

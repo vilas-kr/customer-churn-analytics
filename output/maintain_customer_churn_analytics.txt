@@ -1,0 +1,10 @@
+(.venv) PS D:\Bridgelabs\AWS\customer-churn-analytics> python -m scripts.maintain_customer_churn_analytics
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:root:Query ID: d401afa5-4416-48dc-a930-0e3df60f27b8
+INFO:root:Query running... Status: SUBMITTED
+INFO:root:Query executed successfully
+INFO:root:ANALYZE completed for table: customer_churn_analytics
+INFO:root:Query ID: 2c379f6e-e6df-4c0a-9330-151ba7166aeb
+INFO:root:Query running... Status: PICKED
+INFO:root:Query executed successfully
+INFO:root:VACUUM completed for table: customer_churn_analytics

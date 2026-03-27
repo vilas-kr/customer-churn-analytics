@@ -1,0 +1,56 @@
+(.venv) PS D:\Bridgelabs\AWS\customer-churn-analytics> python -m scripts.data_ingestion
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:root:Query ID: 3d6116de-f199-45d7-bba8-0019ada43a61
+INFO:root:Query running... Status: SUBMITTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query executed successfully
+INFO:root:Staging table truncated successfully.
+INFO:root:Query ID: 9e8658f4-f67a-4316-b448-c6e0748b37d2
+INFO:root:Query running... Status: PICKED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query executed successfully
+INFO:root:Data loaded successfully into 'staging_customer_churn' table.
+INFO:root:Query ID: d912628b-9b7a-4cc0-a7d3-3958146042c0
+INFO:root:Query running... Status: SUBMITTED
+INFO:root:Query executed successfully
+INFO:root:Zip population table truncated successfully.
+INFO:root:Query ID: baed0b21-b5d2-406d-9cc8-c1a41b2e20ea
+INFO:root:Query running... Status: PICKED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query executed successfully
+INFO:root:Data loaded successfully into 'zip_population' table.
+INFO:root:Query ID: 001903cc-480b-4abc-aa54-e9f99c44c76b
+INFO:root:Query running... Status: PICKED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query executed successfully
+INFO:root:Customer churn table truncated successfully.
+INFO:root:Query ID: 4c39a914-1844-4ee8-be42-3e432c6f282a
+INFO:root:Query running... Status: PICKED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query running... Status: STARTED
+INFO:root:Query executed successfully
+INFO:root:Data inserted successfully into 'customer_churn' table.
